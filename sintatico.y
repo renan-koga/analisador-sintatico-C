@@ -169,6 +169,7 @@ comandos: list_comandos comandos1
 
 comandos1:
 	| comandos
+;
 
 list_comandos: DO bloco WHILE L_PAREN exp R_PAREN SEMICOLON
 	| IF L_PAREN exp R_PAREN bloco list_comandos1
